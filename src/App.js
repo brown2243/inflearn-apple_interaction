@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="container">
+
       <nav className='global-nav'>
         <div className="global-nav-links">
           <a href="#" className="global-nav-item">Rooms</a>
@@ -11,6 +12,7 @@ function App() {
           <a href="#" className="global-nav-item">Contact</a>
         </div>
       </nav>
+
       <nav className="local-nav">
         <div className="local-nav-links">
           <a href="#" className="product-name">Airmug Pro</a>
@@ -19,6 +21,7 @@ function App() {
           <a href="#">구입하기</a>
         </div>
       </nav>
+
       <section className="scroll-section" id="scroll-section-0">
         <h1>AirMug Pro</h1>
         <div className="sticky-elem main-message">
@@ -36,7 +39,7 @@ function App() {
       </section>
 
       <section className="scroll-section" id="scroll-section-1">
-        <p>
+        <p className='desc'>
           <strong>보통 스크롤 영역</strong>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, excepturi. Maiores voluptate, facilis fuga corporis deleniti molestiae magnam quisquam laboriosam nesciunt eos suscipit mollitia rerum fugit, doloremque quae! Delectus expedita repudiandae impedit porro cum. Dolorum harum delectus corporis inventore vel, pariatur iste accusantium est! Laborum nihil iure quibusdam quisquam ipsam harum molestiae in numquam exercitationem deleniti animi quam quod sunt laudantium, qui fugit, aspernatur iusto voluptatibus hic laboriosam? Nemo magni laudantium veritatis esse illum molestias. Molestiae eveniet perspiciatis nostrum repellat iste ex iure hic, magnam nulla numquam consectetur cumque voluptate, excepturi illum debitis explicabo dolor placeat, voluptatum aliquam eius quis sunt architecto aspernatur quod. Nihil provident saepe earum quasi non dolore, tempore, dolores assumenda vitae recusandae culpa voluptas accusamus soluta repudiandae blanditiis reprehenderit distinctio perferendis quidem nisi alias sunt! Maxime saepe nulla ea hic delectus in esse expedita autem. Modi animi doloribus vel alias numquam minima accusamus quibusdam. Eum, sapiente impedit? Expedita perspiciatis amet porro quo atque autem iste voluptatibus nemo eveniet exercitationem. Iure ea, eligendi sint repellendus aliquam voluptatum repellat cupiditate fugiat alias vel error modi omnis quod nobis quos! Vitae voluptatem illum consequatur aspernatur nihil odit, eum repudiandae eveniet accusamus iusto nam laborum repellendus, sed unde in amet!
         </p>

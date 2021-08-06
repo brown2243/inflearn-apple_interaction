@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  overflow: hidden;
   color: #1d1d1f;
   letter-spacing: -0.05em;
   background: white;
@@ -34,6 +33,7 @@ a {
 
 .global-nav {
   height: 44px;
+  padding: 0 1rem;
 }
 
 .global-nav .global-nav-links {
@@ -44,6 +44,7 @@ a {
 
 .local-nav {
   height: 52px;
+  padding: 0 1rem;
   border-bottom: 1px solid #ddd;
 }
 
@@ -61,149 +62,139 @@ a {
   font-weight: bold;
 }
 
-/* @charset 'utf-8';
-  html {
-    font-family: "Apple SD Gothic Neo", Roboto, "Noto Sans KR", NanumGothic,
-      "Malgun Gothic", sans-serif;
-    line-height: 1.2;
-    word-wrap: break-word;
+.scroll-section {
+  padding-top: 50vh;
+}
+
+#scroll-section-0 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#scroll-section-2 .main-message {
+  font-size: 3.5rem;
+}
+
+#scroll-section-2 .desc-message {
+  width: 50%;
+  font-weight: 700;
+}
+
+#scroll-section-2 .pin {
+  width: 1px;
+  height: 100px;
+  background-color: #1d1d1f;
+}
+
+#scroll-section-3 .mid-message {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: #888;
+}
+
+#scroll-section-3 .mid-message strong {
+  background-color: #1d1d1f;
+}
+
+#scroll-section-3 .canvas-caption {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #888;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.main-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px 0;
+  height: 3em;
+  font-size: 2.5rem;
+}
+
+.main-message p {
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.main-message small {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  padding: 0 1rem;
+  font-weight: 1.2rem;
+  color: #888;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.desc strong {
+  font-size: 3rem;
+  float: left;
+  color: #1d1d1f;
+  margin-right: 0.2em;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 7rem;
+  color: white;
+  background-color: darkorange;
+}
+
+@media (min-width: 1024px) {
+  #scroll-section-0 h1 {
+    font-size: 9vw;
   }
-  body {
-    -webkit-font-smoothing: antialiased;
+  #scroll-section-1 .desc {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 2rem;
   }
-  html,
-  body,
-  div,
-  span,
-  applet,
-  object,
-  iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  blockquote,
-  pre,
-  a,
-  abbr,
-  acronym,
-  address,
-  big,
-  cite,
-  code,
-  del,
-  dfn,
-  em,
-  img,
-  ins,
-  kbd,
-  q,
-  s,
-  samp,
-  small,
-  strike,
-  strong,
-  sub,
-  sup,
-  tt,
-  var,
-  b,
-  u,
-  i,
-  center,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  tr,
-  th,
-  td,
-  article,
-  aside,
-  canvas,
-  details,
-  embed,
-  figure,
-  figcaption,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  output,
-  ruby,
-  section,
-  summary,
-  time,
-  mark,
-  audio,
-  video {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  #scroll-section-2 .main-message {
+    font-size: 6vw;
   }
-  article,
-  aside,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  section {
-    display: block;
+  #scroll-section-2 small {
+    font-size: 1.5vw;
   }
-  div,
-  span,
-  article,
-  section,
-  header,
-  footer,
-  aside,
-  p,
-  ul,
-  li,
-  fieldset,
-  legend,
-  label,
-  a,
-  nav,
-  form {
-    box-sizing: border-box;
+  #scroll-section-2 .desc-message {
+    width: 20%;
   }
-  ol,
-  ul,
-  li {
-    list-style: none;
+  #scroll-section-3 .mid-message {
+    font-size: 4vw;
   }
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  #scroll-section-3 .canvas-caption {
+    font-size: 2rem;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-    border: 0;
+  .main-message {
+    font-size: 4vw;
   }
-  button {
-    border: 0;
-    background: transparent;
-    cursor: pointer;
-  } */
+  .desc {
+    font-size: 2rem;
+  }
+  .desc strong {
+    font-size: 6rem;
+  }
+}
 /*# sourceMappingURL=App.css.map */
